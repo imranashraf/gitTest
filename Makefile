@@ -8,6 +8,7 @@ OBJS=$(CSRCS:%.c=%.o)
 #default 
 all: $(EXEC)
 
+#some comments
 $(EXEC): $(OBJS)
 	$(CC) -o $(EXEC) $(OBJS)
 
