@@ -13,6 +13,9 @@ $(EXEC): $(OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
+run: $(EXEC)
+	./$(EXEC)
+
 clean:
 	rm -f $(EXEC) $(OBJS) *~
 
