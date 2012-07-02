@@ -5,6 +5,7 @@ CSRCS=main.c
 #extension replacement rule
 OBJS=$(CSRCS:%.c=%.o)
 
+#default 
 all: $(EXEC)
 
 $(EXEC): $(OBJS)
