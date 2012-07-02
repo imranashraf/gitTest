@@ -15,6 +15,7 @@ $(EXEC): $(OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
+#run rule
 run: $(EXEC)
 	./$(EXEC)
 
