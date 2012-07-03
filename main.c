@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("\n Hello World from conflicting main\n");
+	printf("\n Hello World from conflicted main\n");
 
 	return 0;
 }
