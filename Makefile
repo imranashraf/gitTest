@@ -22,4 +22,5 @@ run: $(EXEC)
 clean:
 	rm -f $(EXEC) $(OBJS) *~
 
+#add phony
 
